@@ -34,12 +34,14 @@
 .div-2 {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   gap: 20px;
   background-image: url(../assets/vue.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 30px;
+  min-height: fit-content;
 }
 
 .images {
