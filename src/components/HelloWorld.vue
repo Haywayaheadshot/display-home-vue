@@ -25,10 +25,14 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttons {
   background-color: green;
+  max-width: fit-content;
+  padding: 0 10vw;
 }
 
 .div-2 {
