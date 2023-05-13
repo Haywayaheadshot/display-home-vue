@@ -10,11 +10,11 @@
       button 3
     </button>
   </div>
-  <div>
-    <div class="div-2">
+  <div class="div-2">
+    <div>
       <b class="images">1,20000</b>
-    <b class="images">Jobs</b>
-    <b class="images">For you</b>
+     <b class="images">Jobs</b>
+     <b class="images">For you</b>
     </div>
   </div>
 </template>
@@ -25,27 +25,24 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 30px;
-  justify-content: center;
-  align-items: center;
 }
 
 .buttons {
   background-color: green;
-  max-width: fit-content;
-  padding: 0 10vw;
 }
 
 .div-2 {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; */
   gap: 20px;
   background-image: url(../assets/vue.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 30px;
-  min-height: fit-content;
+  /* min-height: fit-content; */
+  position: static;
 }
 
 .images {
